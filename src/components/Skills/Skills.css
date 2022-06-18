@@ -1,0 +1,30 @@
+.Skills {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+    color: white;
+    margin: 5%;
+    padding-bottom: 5%;
+}
+
+.Skill {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(85, 85, 85, 0.25) 0px 54px 55px,
+      rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 35px;
+    align-items: center;
+}
+
+.Skill-Title {
+    width: 200px;
+    text-shadow: 3px 3px 20px #99f3ff, -2px 1px 30px #99f3ff;
+    font-size: 20px;
+}
+
+.IconContainer {
+    width: 140px;
+}
