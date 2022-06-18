@@ -1,0 +1,84 @@
+.About {
+  display: flex;
+  padding: 3%;
+  max-height: 70%;
+}
+
+img {
+  width: 40%;
+  height: auto;
+  border-radius: 48%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: rgba(85, 85, 85, 0.25) 0px 54px 55px,
+    rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 15px;
+  flex-basis: 33%;
+  row-gap: 5px;
+}
+
+.profile:hover {
+  background-color: rgba(95, 95, 95, 0.4);
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 3px 3px 20px #99f3ff, -2px 1px 30px #99f3ff;
+}
+
+.interests {
+  flex-basis: 67%;
+}
+
+.interests-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
+.interests-item {
+  flex-basis: 40%;
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: rgba(85, 85, 85, 0.25) 0px 54px 55px,
+    rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-shadow: 3px 3px 20px #99f3ff, -2px 1px 30px #99f3ff;
+  padding: 10px;
+  color: rgb(230, 230, 230);
+  letter-spacing: 1px;
+  list-style: none;
+}
+
+.interests-item:hover {
+  background-color: rgba(95, 95, 95, 0.4);
+}
+
+.About__h1 {
+  font-size: 20px;
+  cursor: default;
+}
+
+.interest-title {
+  font-size: 35px;
+  color: rgb(230, 230, 230);
+}
+
+.description {
+  cursor: default;
+  color: white;
+}
