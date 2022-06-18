@@ -4,14 +4,13 @@ const Experience = () => {
   return (
     <div className="Experience-container">
       <div className="resume">
-        Check out my resume
+        Check out my resume  
         <a
           className="resume-link"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.docdroid.net/WQFpFUD/updated-resume-pdf"
-        >
-          here!
+        > here!
         </a>
       </div>
       <div className="experience">
