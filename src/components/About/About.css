@@ -25,7 +25,7 @@ img {
 }
 
 .profile:hover {
-  background-color: rgba(95, 95, 95, 0.4);
+  background-color: rgba(95, 95, 95, 0.3);
 }
 
 .name {
@@ -65,7 +65,7 @@ img {
 }
 
 .interests-item:hover {
-  background-color: rgba(95, 95, 95, 0.4);
+  background-color: rgba(95, 95, 95, 0.3);
 }
 
 .About__h1 {
