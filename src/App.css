@@ -33,6 +33,8 @@ video {
 #navbar__logoItem {
   margin-right: auto;
   color: rgb(230, 230, 230);
+  font-size: 25px;
+  font-weight: 600;
 }
 
 #navbar__item {
