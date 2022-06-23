@@ -1,7 +1,6 @@
 import "./Skills.css";
 import {
   DiReact,
-  DiJavascript,
   DiCss3,
   DiSass,
   DiGit,
@@ -12,7 +11,6 @@ import {
   DiNpm,
   DiJira,
   DiHtml5,
-  DiJqueryLogo,
   DiScrum,
 } from "react-icons/di";
 
@@ -35,11 +33,17 @@ import {
   SiBabel,
   SiJson,
   SiLodash,
+  SiGraphql,
+  SiNextdotjs
 } from "react-icons/si";
 
 import { AiOutlineConsoleSql } from "react-icons/ai";
 
-import { TbBrandReactNative } from "react-icons/tb";
+import { 
+  TbBrandReactNative, 
+  TbBrandEdge, 
+  TbBrandJavascript 
+} from "react-icons/tb";
 
 import { HiChartBar } from "react-icons/hi";
 
@@ -51,7 +55,7 @@ const Skills = () => {
       <div className="Skill">
         <div className="Skill-Title">Programming Languages: </div>
         <div className="IconContainer">
-          <DiJavascript size={50} />
+          <TbBrandJavascript size={50} />
           <div className="IconName">JavaScript</div>
         </div>
         <div className="IconContainer">
@@ -59,12 +63,12 @@ const Skills = () => {
           <div className="IconName">TypeScript</div>
         </div>
         <div className="IconContainer">
-          <AiOutlineConsoleSql size={50} />
-          <div className="IconName">SQL</div>
-        </div>
-        <div className="IconContainer">
           <DiPython size={50} />
           <div className="IconName">Python</div>
+        </div>
+        <div className="IconContainer">
+          <AiOutlineConsoleSql size={50} />
+          <div className="IconName">SQL</div>
         </div>
         <div className="IconContainer">
           <SiCplusplus size={50} />
@@ -94,6 +98,10 @@ const Skills = () => {
           <div className="IconName">CSS3</div>
         </div>
         <div className="IconContainer">
+          <SiGraphql size={50} />
+          <div className="IconName">GraphQL</div>
+        </div>
+        <div className="IconContainer">
           <DiSass size={50} />
           <div className="IconName">Sass</div>
         </div>
@@ -117,13 +125,17 @@ const Skills = () => {
           <SiLodash size={50} />
           <div className="IconName">Lodash</div>
         </div>
-        <div className="IconContainer">
-          <DiJqueryLogo size={50} />
-          <div className="IconName">jQuery</div>
-        </div>
       </div>
       <div className="Skill">
         <div className="Skill-Title">Back-End Technologies: </div>
+        <div className="IconContainer">
+          <DiNodejs size={50} />
+          <div className="IconName">NodeJS</div>
+        </div>
+        <div className="IconContainer">
+          <SiNextdotjs size={50} />
+          <div className="IconName">Next.js</div>
+        </div>
         <div className="IconContainer">
           <DiMongodb size={50} />
           <div className="IconName">MongoDB</div>
@@ -131,10 +143,6 @@ const Skills = () => {
         <div className="IconContainer">
           <SiMysql size={50} />
           <div className="IconName">MySQL</div>
-        </div>
-        <div className="IconContainer">
-          <DiNodejs size={50} />
-          <div className="IconName">NodeJS</div>
         </div>
         <div className="IconContainer">
           <SiExpress size={50} />
@@ -148,16 +156,17 @@ const Skills = () => {
           <SiJson size={50} />
           <div className="IconName">JSON</div>
         </div>
+
       </div>
       <div className="Skill">
         <div className="Skill-Title">Testing: </div>
         <div className="IconContainer">
-          <SiJest size={50} />
-          <div className="IconName">Jest</div>
-        </div>
-        <div className="IconContainer">
           <GiOctopus size={50} />
           <div className="IconName">React Testing Library</div>
+        </div>
+        <div className="IconContainer">
+          <SiJest size={50} />
+          <div className="IconName">Jest</div>
         </div>
         <div className="IconContainer">
           <SiStorybook size={50} />
@@ -166,6 +175,10 @@ const Skills = () => {
         <div className="IconContainer">
           <SiMocha size={50} />
           <div className="IconName">Mocha</div>
+        </div>
+        <div className="IconContainer">
+          <TbBrandEdge size={50} />
+          <div className="IconName">Enzyme</div>
         </div>
         <div className="IconContainer">
           <SiChai size={50} />

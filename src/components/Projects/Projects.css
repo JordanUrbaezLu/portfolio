@@ -1,0 +1,42 @@
+.Projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10%;
+    row-gap: 5vh;
+    color: white;
+    margin: 2%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(85, 85, 85, 0.25) 0px 54px 55px,
+      rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    cursor: default;
+    flex-basis: 20%;
+    row-gap: 2vh;
+}
+
+.project:hover {
+    background-color: rgba(95, 95, 95, 0.3);
+}
+
+.project-image {
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.project-title {
+    text-shadow: 3px 3px 20px #99f3ff, -2px 1px 30px #99f3ff;
+    font-size: 20px;
+}
