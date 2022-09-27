@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14ffd45b.css",
+    "main.js": "/static/js/main.61cc1390.js",
+    "static/media/Background.mp4": "/static/media/Background.209abb2d631a40a73d8d.mp4",
+    "static/media/AstroJS.png": "/static/media/AstroJS.6eff881fb6619de6c9d7.png",
+    "static/media/ProfilePicture.jpg": "/static/media/ProfilePicture.b425848753886ea90956.jpg",
+    "static/media/Pokedex.png": "/static/media/Pokedex.a67878709fe45cd93c2a.png",
+    "static/media/ShoeLandingPage.jpg": "/static/media/ShoeLandingPage.dbf765e450f50659b863.jpg",
+    "static/media/TodoList.png": "/static/media/TodoList.f795ae3e51c979fad76e.png",
+    "static/media/SpaceshipPVP.webp": "/static/media/SpaceshipPVP.2c9f1e5de0143f23536e.webp",
+    "static/media/NFAtoDFA.png": "/static/media/NFAtoDFA.9500f134a037ff81c809.png",
+    "static/media/UmassLowell.svg": "/static/media/UmassLowell.0bf3f1e515b48fefe182c4ed011970b4.svg",
+    "index.html": "/index.html",
+    "main.14ffd45b.css.map": "/static/css/main.14ffd45b.css.map",
+    "main.61cc1390.js.map": "/static/js/main.61cc1390.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14ffd45b.css",
+    "static/js/main.61cc1390.js"
+  ]
+}
