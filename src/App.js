@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-import Courses from "./components/Courses/Courses";
+import Education from "./components/Education/Education";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import { Routes, Route, Link } from "react-router-dom";
@@ -34,8 +34,8 @@ const App = () => {
           <Link id="navbar__item" to="/skills">
             Skills
           </Link>
-          <Link id="navbar__item" to="/courses">
-            Courses
+          <Link id="navbar__item" to="/education">
+            Education
           </Link>
           <Link id="navbar__item" to="/projects">
             Projects
@@ -50,7 +50,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/courses" element={<Courses />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
         </Routes>

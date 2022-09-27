@@ -7,8 +7,9 @@ import {
   FaRunning,
   FaNutritionix,
 } from "react-icons/fa";
-import { GiBrain, GiGameConsole } from "react-icons/gi";
+import { GiBrain } from "react-icons/gi";
 import { DiAndroid } from "react-icons/di";
+import { SiVisualstudiocode } from "react-icons/si";
 
 const About = () => {
   return (
@@ -21,14 +22,16 @@ const About = () => {
         ></img>
         <div className="name">Jordan Urbaez Lu</div>
         <div className="description">
-          I am a Senior Front-End Developer who specializes in React
-          Development. I have been in the field for over 4 years using industry
-          leading technolgies such as HTML5, CSS3, SASS, JavaScript, ES6, JSON,
-          React, TypeScript, Redux, Node.js, jQuery, Jest, Enzyme, Express,
-          Webpack, MongoDB, and many more. I am also well experienced building
-          effective React applications using concpets like React Router, React
-          Hooks, JSX, Functional Components, Component Life Cycles, Context Api,
-          React Redux, Server-Side Rendering, and more.
+          I am a Software Engineer who specializes in React Development. I have
+          a year of high-level professional experience using industry leading
+          technologies such as React, HTML5, CSS3, SASS, JavaScript, Jest, ES6,
+          JSON, TypeScript, Node.js, Enzyme, Express, Webpack, Rollup,
+          Storybook, Redux, Design Tokens, Astro, Gatsby, MongoDB, NextJS, A11y,
+          Github Actions, Jenkins, and many more. I am
+          quite experienced building effective React applications using
+          concepts like React Router, React Hooks, JSX, Functional Components,
+          Component Life Cycles, Context Api, React Redux, Server-Side
+          Rendering, and more.
         </div>
       </div>
       <div className="interests">
@@ -63,8 +66,8 @@ const About = () => {
             <h1 className="About__h1">Psychology</h1>
           </li>
           <li className="interests-item">
-            <GiGameConsole size={50} color="#900D09" />
-            <h1 className="About__h1">Videogames</h1>
+            <SiVisualstudiocode size={50} color="lightblue" />
+            <h1 className="About__h1">Programming</h1>
           </li>
         </ul>
       </div>
