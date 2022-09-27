@@ -8,7 +8,6 @@ import {
   DiMongodb,
   DiPython,
   DiNodejs,
-  DiNpm,
   DiJira,
   DiHtml5,
   DiScrum,
@@ -20,34 +19,28 @@ import {
   SiCplusplus,
   SiCodio,
   SiTypescript,
-  SiMysql,
   SiJest,
   SiStorybook,
   SiExpress,
-  SiMocha,
-  SiChai,
   SiMaterialui,
-  SiSubversion,
-  SiAzuredevops,
   SiWebpack,
   SiBabel,
   SiJson,
-  SiLodash,
-  SiGraphql,
-  SiNextdotjs
+  SiNextdotjs,
+  SiGithubactions,
+  SiJenkins,
+  SiRollupdotjs
 } from "react-icons/si";
 
-import { AiOutlineConsoleSql } from "react-icons/ai";
-
 import { 
-  TbBrandReactNative, 
   TbBrandEdge, 
-  TbBrandJavascript 
+  TbBrandJavascript,
+  TbAccessible,
+  TbMathFunction,
+  TbTestPipe
 } from "react-icons/tb";
 
-import { HiChartBar } from "react-icons/hi";
-
-import { BiLineChartDown } from "react-icons/bi";
+import { ImSpinner9 } from "react-icons/im";
 
 const Skills = () => {
   return (
@@ -67,16 +60,16 @@ const Skills = () => {
           <div className="IconName">Python</div>
         </div>
         <div className="IconContainer">
-          <AiOutlineConsoleSql size={50} />
-          <div className="IconName">SQL</div>
-        </div>
-        <div className="IconContainer">
           <SiCplusplus size={50} />
           <div className="IconName">C++</div>
         </div>
         <div className="IconContainer">
           <SiCodio size={50} />
           <div className="IconName">C</div>
+        </div>
+        <div className="IconContainer">
+          <TbMathFunction size={50} />
+          <div className="IconName">Matlab</div>
         </div>
       </div>
       <div className="Skill">
@@ -86,20 +79,12 @@ const Skills = () => {
           <div className="IconName">React</div>
         </div>
         <div className="IconContainer">
-          <TbBrandReactNative size={50} />
-          <div className="IconName">React Native</div>
-        </div>
-        <div className="IconContainer">
           <DiHtml5 size={50} />
           <div className="IconName">HTML5</div>
         </div>
         <div className="IconContainer">
           <DiCss3 size={50} />
           <div className="IconName">CSS3</div>
-        </div>
-        <div className="IconContainer">
-          <SiGraphql size={50} />
-          <div className="IconName">GraphQL</div>
         </div>
         <div className="IconContainer">
           <DiSass size={50} />
@@ -118,12 +103,8 @@ const Skills = () => {
           <div className="IconName">Babel</div>
         </div>
         <div className="IconContainer">
-          <HiChartBar size={50} />
-          <div className="IconName">Highcharts</div>
-        </div>
-        <div className="IconContainer">
-          <SiLodash size={50} />
-          <div className="IconName">Lodash</div>
+          <SiRollupdotjs size={50} />
+          <div className="IconName">Rollup</div>
         </div>
       </div>
       <div className="Skill">
@@ -133,24 +114,16 @@ const Skills = () => {
           <div className="IconName">NodeJS</div>
         </div>
         <div className="IconContainer">
-          <SiNextdotjs size={50} />
-          <div className="IconName">Next.js</div>
-        </div>
-        <div className="IconContainer">
           <DiMongodb size={50} />
           <div className="IconName">MongoDB</div>
-        </div>
-        <div className="IconContainer">
-          <SiMysql size={50} />
-          <div className="IconName">MySQL</div>
         </div>
         <div className="IconContainer">
           <SiExpress size={50} />
           <div className="IconName">Express</div>
         </div>
         <div className="IconContainer">
-          <DiNpm size={50} />
-          <div className="IconName">NPM</div>
+          <SiNextdotjs size={50} />
+          <div className="IconName">Next.js</div>
         </div>
         <div className="IconContainer">
           <SiJson size={50} />
@@ -173,16 +146,27 @@ const Skills = () => {
           <div className="IconName">Storybook</div>
         </div>
         <div className="IconContainer">
-          <SiMocha size={50} />
-          <div className="IconName">Mocha</div>
-        </div>
-        <div className="IconContainer">
           <TbBrandEdge size={50} />
           <div className="IconName">Enzyme</div>
         </div>
         <div className="IconContainer">
-          <SiChai size={50} />
-          <div className="IconName">Chai</div>
+          <TbAccessible size={50} />
+          <div className="IconName">A11y</div>
+        </div>
+      </div>
+      <div className="Skill">
+        <div className="Skill-Title">CI/CD: </div>
+        <div className="IconContainer">
+          <SiGithubactions size={50} />
+          <div className="IconName">Github Actions</div>
+        </div>
+        <div className="IconContainer">
+          <SiJenkins size={50} />
+          <div className="IconName">Jenkins</div>
+        </div>
+        <div className="IconContainer">
+          <TbTestPipe size={50} />
+          <div className="IconName">Workflows</div>
         </div>
       </div>
       <div className="Skill">
@@ -195,17 +179,13 @@ const Skills = () => {
           <DiGithub size={50} />
           <div className="IconName">Github</div>
         </div>
-        <div className="IconContainer">
-          <SiSubversion size={50} />
-          <div className="IconName">SVN</div>
-        </div>
-        <div className="IconContainer">
-          <SiAzuredevops size={50} />
-          <div className="IconName">Azure Devops</div>
-        </div>
       </div>
       <div className="Skill">
         <div className="Skill-Title">Methodologies: </div>
+        <div className="IconContainer">
+          <ImSpinner9 size={50} />
+          <div className="IconName">Agile</div>
+        </div>
         <div className="IconContainer">
           <DiJira size={50} />
           <div className="IconName">Jira</div>
@@ -213,10 +193,6 @@ const Skills = () => {
         <div className="IconContainer">
           <DiScrum size={50} />
           <div className="IconName">Scrum</div>
-        </div>
-        <div className="IconContainer">
-          <BiLineChartDown size={50} />
-          <div className="IconName">Waterfall</div>
         </div>
       </div>
     </div>

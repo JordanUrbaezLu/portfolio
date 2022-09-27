@@ -9,8 +9,8 @@ const Home = () => {
 
     useEffect(() => {
         const typed = new Typed(welcome.current, {
-          strings: ["React Developer!", "Senior Front-End Developer!", "Skilled Programmer!"], // Strings to display
-          // Speed settings, try diffrent values untill you get good results
+          strings: ["React Developer!", "Software Engineer!", "Front-End Programmer!"], // Strings to display
+          // Speed settings, try diffrent values until you get good results
           startDelay: 600,
           typeSpeed: 80,
           backSpeed: 60,
