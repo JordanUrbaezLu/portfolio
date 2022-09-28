@@ -13,13 +13,13 @@
     align-items: center;
     padding: 40px;
     row-gap: 2vh;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0);
     box-shadow: rgba(85, 85, 85, 0.25) 0px 54px 55px,
       rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 15px;
     cursor: default;
-    margin-bottom: 50px;
+    margin: 30px;
 }
 
 .Courses-container:hover {

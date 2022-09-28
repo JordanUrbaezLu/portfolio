@@ -8,8 +8,11 @@ import Skills from "./components/Skills/Skills";
 import { Routes, Route, Link } from "react-router-dom";
 import Experience from "./components/Experience/Experience";
 import backgroundVideo from "./assets/Background.mp4";
-
+import { VscMenu } from "react-icons/vsc";
+import { useState } from "react";
 const App = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="App">
       <div
@@ -44,6 +47,31 @@ const App = () => {
             Contact
           </Link>
         </nav>
+        <div className="menu-icon" onClick={() => setShow(!show)}>
+          <VscMenu size={50} />
+        </div>
+        {show && (
+          <div className="navbar2">
+            <Link onClick={() => setShow(!show)} id="navbar__item2" to="/about">
+              About
+            </Link>
+            <Link onClick={() => setShow(!show)} id="navbar__item2" to="/experience">
+              Experience
+            </Link>
+            <Link onClick={() => setShow(!show)} id="navbar__item2" to="/skills">
+              Skills
+            </Link>
+            <Link onClick={() => setShow(!show)} id="navbar__item2" to="/education">
+              Education
+            </Link>
+            <Link onClick={() => setShow(!show)} id="navbar__item2" to="/projects">
+              Projects
+            </Link>
+            <Link onClick={() => setShow(!show)} id="navbar__item2" to="/contact">
+              Contact
+            </Link>
+          </div>
+        )}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="Xdate">July 2022 - Present</div>
         <div className="Xlocation">Remote</div>
         <div className="Xproject">Project: Living Design</div>
-        <div style={{ paddingBottom: "20px" }}>
+        <div className="XprojectDescription" style={{ paddingBottom: "20px" }}>
           Living Design is a major design system for Walmart.com. It is a
           collection of processes, guidelines, components, patterns, and styles
           used to design and develop digital products for the customer and
