@@ -4,8 +4,8 @@ const Experience = () => {
   return (
     <div className="Experience-container">
       <div className="experience">
-        <div className="Xcompany">Walmart Global Tech</div>
-        <div className="Xposition">Software Engineer III</div>
+        <div className="Xcompany">Walmart</div>
+        <div className="Xposition">React Developer</div>
         <div className="Xdate">July 2022 - Present</div>
         <div className="Xlocation">Remote</div>
         <div className="Xproject">Project: Living Design</div>

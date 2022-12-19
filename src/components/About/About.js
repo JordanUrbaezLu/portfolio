@@ -23,7 +23,7 @@ const About = () => {
         <div className="name">Jordan Urbaez Lu</div>
         <div className="description">
           I am a Software Engineer who specializes in React Development. I have
-          a year of high-level professional experience using industry leading
+          high-level professional experience using industry leading
           technologies such as React, HTML5, CSS3, SASS, JavaScript, Jest, ES6,
           JSON, TypeScript, Node.js, Enzyme, Express, Webpack, Rollup,
           Storybook, Redux, Design Tokens, Astro, Gatsby, MongoDB, NextJS, A11y,

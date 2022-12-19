@@ -42,8 +42,6 @@ import {
 
 import { ImSpinner9 } from "react-icons/im";
 
-// TODO: make the skills container scroll
-
 const Skills = () => {
   return (
     <div className="Skills">
